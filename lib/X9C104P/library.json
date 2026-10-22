@@ -1,0 +1,25 @@
+{
+  "name": "X9C104P",
+  "version": "1.0.0",
+  "description": "Arduino C++ library for controlling the X9C104P digital potentiometer.",
+  "keywords": [
+    "arduino",
+    "digital-potentiometer",
+    "X9C104P",
+    "embedded"
+  ],
+  "authors": [
+    {
+      "name": "Arijit Das"
+    }
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr"
+  ],
+  "headers": [
+    "X9C104P.h"
+  ]
+}

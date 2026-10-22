@@ -1,0 +1,9 @@
+# Project Include Directory
+
+This directory is reserved for project-specific header files.
+
+The reusable X9C104P library header is maintained in:
+
+`lib/X9C104P/src/X9C104P.h`
+
+No additional project-specific headers are currently required here.

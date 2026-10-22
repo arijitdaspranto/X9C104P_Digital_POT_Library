@@ -1,0 +1,14 @@
+# PlatformIO generated files
+.pio/
+
+# VS Code workspace settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~

@@ -1,0 +1,31 @@
+# Testing
+
+The X9C104P library has been tested with an Arduino Uno and an X9C104P digital potentiometer.
+
+## Manual Position-Control Test
+
+The test sequence is:
+
+1. Initialize the library.
+2. Home the wiper to position 0.
+3. Set the position to 25.
+4. Set the position to 50.
+5. Return the position to 0.
+
+## Observed Results
+
+In the reported voltage-sweep configuration, the approximate wiper voltages were:
+
+| Position | Observed Voltage |
+|---:|---:|
+| 25 | 1.3 V |
+| 50 | 2.6 V |
+| 0 | Approximately 0 V |
+
+These measurements describe the tested circuit and are not guaranteed values for other configurations.
+
+## Notes
+
+- Resistance is estimated from the requested position.
+- The software tracker does not measure the physical resistance.
+- Hardware supply and terminal voltages must remain within the device specifications.
